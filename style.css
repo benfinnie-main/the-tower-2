@@ -6,7 +6,7 @@
 
 .header {
     background-color: #1F2937;
-    padding: 10px 200px 150px 200px;
+    padding: 1rem 12rem 6rem 12rem;
     margin: 0;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .header-item {
-    margin: 0 10px;
+    margin-right: auto;
 }
 
 .header-text-large {
@@ -45,12 +45,14 @@
     background-color: #3882F6;
     color: white;
     text-align: center;
-    width: 10rem;
+    width: 8rem;
     height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
+    font-weight: 700;
+    font-size: 1.4rem;
 }
 
 .header-image {
@@ -71,4 +73,107 @@
 
 .header-text-large, .header-text-small {
     margin-bottom: 1rem;
+}
+
+.information-section {
+    padding-bottom: 7rem;
+}
+
+.information-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 3rem;
+}
+
+.info-box-outer {
+    width: 12rem;
+    height: 12rem;
+    border: solid #3882F6;
+    border-radius: 1rem;
+    background-color: #3882F6;
+    display: flex;
+    padding: 0.1rem;
+}
+
+.info-box {
+      border-radius: 0.7rem;
+      margin: 0;
+      background: white;
+      flex: 1;
+}
+
+.info-box-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.info-box-subtitle {
+    text-align: center;
+    padding-top: 0.4rem;
+    
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-source {
+    font-weight: bold;
+    text-align: right;
+    font-size: 2rem;
+}
+
+.quote-container {
+    padding: 10rem 15rem;
+    background-color: #E5E7EB;
+}
+
+.sign-up-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16rem;
+    background-color: #3882F6;
+    padding: 4rem;
+    margin: 5rem 8rem;
+    border-radius: 1rem;
+}
+
+.sign-up-button-extra {
+    border: 0.2rem solid #3882F6;
+    margin: 0;
+    flex: 1;
+}
+
+.sign-up-button-extra-outer {
+    border: solid white;
+    padding: 0rem;
+    border-radius: 1.3rem;
+    display: flex;
+}
+
+.sign-up-text p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#sign-up-bold {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.copyright-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 4rem;
+    color: white;
 }
