@@ -151,13 +151,14 @@
 
 .sign-up-area {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 16rem;
     background-color: #3882F6;
     padding: 4rem;
     margin: 5rem 8rem;
     border-radius: 1rem;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 @media (max-width: 1000px) {
