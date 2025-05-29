@@ -7,7 +7,14 @@
 .header {
     background-color: #1F2937;
     padding: 1rem 12rem 6rem 12rem;
+    /*padding: clamp(0.1rem, 10vw, 12rem);*/
     margin: 0;
+}
+
+@media (max-width: 1000px) {
+    .header {
+        padding: 1rem;
+    }
 }
 
 .header-top-container {
@@ -19,7 +26,7 @@
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    width: 60%;
+    width: 30rem;
 }
 
 .header-text-small, .header-item {
@@ -32,7 +39,7 @@
 }
 
 .header-item {
-    margin-right: auto;
+    margin: auto;
 }
 
 .header-text-large {
@@ -110,6 +117,7 @@
     display: flex;
     gap: 2rem;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info-box-subtitle {
@@ -135,6 +143,12 @@
     background-color: #E5E7EB;
 }
 
+@media (max-width: 1000px) {
+    .quote-container {
+        padding: 1rem;
+    }
+}
+
 .sign-up-area {
     display: flex;
     justify-content: center;
@@ -144,6 +158,13 @@
     padding: 4rem;
     margin: 5rem 8rem;
     border-radius: 1rem;
+}
+
+@media (max-width: 1000px) {
+    .sign-up-area {
+        padding: 1rem;
+        margin: 1rem;
+    }
 }
 
 .sign-up-button-extra {
@@ -157,6 +178,7 @@
     padding: 0rem;
     border-radius: 1.3rem;
     display: flex;
+    background-color: white;
 }
 
 .sign-up-text p {
