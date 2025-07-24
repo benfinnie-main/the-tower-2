@@ -200,3 +200,15 @@
     padding: 4rem;
     color: white;
 }
+
+.js-testing-area {
+    padding: 4rem;
+}
+
+#textBox {
+    font-size: 2rem;
+}
+
+#output {
+    font-size: 1.5rem;
+}
